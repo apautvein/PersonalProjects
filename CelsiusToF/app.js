@@ -1,4 +1,3 @@
-const conversion = document.querySelector('#convert')
 const celsiusInput = document.querySelector('#input-celsius');
 const submitBtn = document.querySelector('.submit-btn');
 const message = document.querySelector('.message');
@@ -22,6 +21,5 @@ function setMessage(msg, color) {
 
 function convertToF(celsius) {
     let fahrenheit = celsius * 9 / 5 + 32;
-    console.log(fahrenheit);
     setMessage(`${fahrenheit} degrees Fahrenheit`, 'green');
 }
